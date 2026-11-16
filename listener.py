@@ -2,9 +2,9 @@ import json
 from datetime import datetime
 import paho.mqtt.client as mqtt
 
-BROKER_IP = "127.0.0.1"
+BROKER_IP = "broker.hivemq.com"
 PORT = 1883
-TOPIC = "room/#"
+TOPIC = "asmaq/iot/room/#"
 
 TEMP_THRESHOLD = 30.0
 GAS_THRESHOLD = 400
